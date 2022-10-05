@@ -3,6 +3,8 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import { Teste } from '../screens/Teste'; 
 import { Home } from '../screens/Home';
+import { Creditos } from '../screens/TelaFinal';
+import { EstadoSelecionado } from '../screens/Detalhes';
 
 
 const { Navigator, Screen } = createStackNavigator();
@@ -17,15 +19,25 @@ export function AuthRoutes () {
                 headerShown: false,
             }}
         >
-            <Screen
+                <Screen
             name="Teste"
             component={Teste}
-            />
+                />
 
-             <Screen
+                <Screen
             name="Home"
             component={Home}
-            />
+                />
+
+                <Screen
+            name="Creditos"
+            component={Creditos}
+                />
+
+                <Screen
+            name="EstadoSelecionado"
+            component={EstadoSelecionado}
+                />
         </Navigator>
     )
 }

@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
         flexDirection: "column",
         justifyContent: "flex-start",
         alignItems: "center",
-        paddingTop: 52,
+        margin: 10,
     },
     caixa: {
         backgroundColor: '#F1FAEE',

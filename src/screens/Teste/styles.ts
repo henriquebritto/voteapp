@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     botaoResults: {
-
+        width: 250,
 
     }
 });
